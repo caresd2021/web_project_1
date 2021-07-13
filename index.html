@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Learning how to learn</title>
 </head>
 <body>
@@ -19,48 +20,34 @@
         <p>The most effective, cutting-edge learning techniques that you can apply to your daily life. <a href="#" style="text-decoration: none;">Learn More →</a></p>
       </div>
       <div class="header__link"></div>
-      <div class="header__main-illustration">
-        <img src="images/header-image.png" alt="Man standing on mountain">
-      </div>
+      <img src="images/header-image.png" alt="Man standing on mountain" class="header__main-illustration">
       <div class="header__square-pic"></div>
     </header>
 
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <div class="two-columns__brief">
-            <h2>The main problem with education</h2>
-          </div>
+         <h2 class="two-columns__brief">The main problem with education</h2>
           <div class="two-columns__main-text">
-            <div class="two-columns__paragraph-one">
-              <p>Whether it's at school or university, the one thing no one ever teaches you is how to teach
+              <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach
                 yourself. We often just end up drilling specific exercises and mindlessly memorizing information
                 so that when exam time comes around, we pass the test. But once the test is over, that
                 information has outlived its usefulness, and there's no guarantee that information will be
                 retained. In the end, we're really just learning how to pass our tests. </p>
-            </div>
-            <div class="two-columns__paragraph-two">
-              <p><span class="two-columns__span-accent">Here's the real question:</span> does this approach of repetition and memorization help us truly
+              <p class="two-columns__paragraph"><span class="two-columns__span-accent">Here's the real question:</span> does this approach of repetition and memorization help us truly
                 understand the subject material? The academic consensus nowadays is that it doesn't. In fact,
                 what's more important than any individual topic is knowing how to study, but for some reason,
                 this point is often overlooked. So, what can we do to remedy this?</p>
-            </div>
-            <div class="two-columns__paragraph-three">
-                <p>Well, there are various techniques and exercises that can be applied to the educational process
+            <p class="two-columns__paragraph">Well, there are various techniques and exercises that can be applied to the educational process
                 to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of
                 effective learning.</p>
-            </div>
           </div>
         </div>
       </section>
 
       <section class="digits">
-        <div class="section-title">
-          <h1>Facts and figures</h1>
-        </div>
-        <div class="section-subtitle">
-          <h2>On learning and the brain</h2>
-        </div>
+        <h1 class="section-title" >Facts and figures</h1>
+        <h2 class="section-subtitle">On learning and the brain</h2>
         <ul class="table">
           <li class="table__cell">
             <div class="table__heading">
@@ -132,27 +119,14 @@
       </section>
 
       <section class="feynman">
-        <div class="feynman__image">
-          <img src="images/feynman.png">
-        </div>
-        <div class="feynman__title">
-          <h1>The Feynman Technique</h1>
-        </div>
-        <div class="feynman__subtitle">
-          <h2>Learn without forgeting</h2>
-        </div>
-        <div class="feynman__link">
-          <p><a href="#" style="text-decoration: none;">More →</a></p>
-        </div>
+        <h1 class="feynman__title">The Feynman Technique</h1>
+        <h2 class="feynman__subtitle">Learn without forgeting</h2>
+        <a class="feynman__link" href="#">More →</a>
       </section>
 
       <section class="kaufman">
-        <div class="section-title_theme_dark">
-          <h1>Ten principles of rapid skill aquisition</h1>
-        </div>
-        <div class="section-subtitle_theme_dark">
-          <h2>By Josh Kaufman</h2>
-        </div>
+        <h1 class="section-title_theme_dark">Ten principles of rapid skill aquisition</h1>
+        <h2 class="section-subtitle_theme_dark">By Josh Kaufman</h2>
         <ul class="table_theme_dark">
           <li class="table__cell_theme_dark">
             <div class="table__heading_theme_dark">
@@ -235,20 +209,14 @@
             </div>
           </li>
         </ul>
-        <div class="kaufman__triangle">
-          <img src="images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
-        </div>
+      <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__columns__content_copyright">
-          <div class="logo_place_footer">
-            <img src="images/logo_place_footer.png">
-          </div>
-          <div class="footer__author">
-            <p>&#169; David Cares-Gomez</p>
-          </div>
+          <img class="logo_place_footer" src="images/logo_place_footer.png">
+            <p class="footer__author">&#169; David Cares-Gomez</p>
         </div>
         <div class="footer__columns__content_about">
           <div class="footer__column-heading">
