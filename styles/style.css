@@ -53,7 +53,6 @@
   font-weight: normal;
   left: 64px;
   bottom: 0;
-  left: 30px;
 }
 
 .header__link {
@@ -302,10 +301,11 @@
 }
 
 .footer__columns__content_copyright {
-  flex-basis: 711px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-end;
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
