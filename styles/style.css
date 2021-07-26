@@ -149,7 +149,6 @@
 }
 
 .table {
-  margin: 0;
   padding: 0;
   width: 1100px;
   margin: 60px auto 100px auto;
@@ -358,7 +357,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  padding: 0;
   list-style: none;
   color: white;
   text-decoration: none;
