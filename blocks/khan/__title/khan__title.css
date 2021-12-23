@@ -1,8 +1,7 @@
-.cards__title {
+.khan__title {
     margin: 0;
     padding: 0;
     line-height: 1.15;
-    font-size: 24px;
+    font-size: 60px;
     font-weight: bold;
-    text-align: center;
 }

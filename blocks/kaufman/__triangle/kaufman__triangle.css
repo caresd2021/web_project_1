@@ -6,4 +6,6 @@
     right: -124px;
     overflow: hidden;
     z-index: -1;
+    animation-name: rotate;
+    animation-duration: 20s;
    }

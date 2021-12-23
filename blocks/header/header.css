@@ -6,6 +6,7 @@
     max-height: 756px;
     background-color: #F2F2F2;
     z-index: 1;
+    overflow: hidden;
     /* parameters for the header section */
   }
 
