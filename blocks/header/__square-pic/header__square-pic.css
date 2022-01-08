@@ -7,6 +7,4 @@
     right: 0px;
     z-index: -2;
     transform: rotate(-14deg);
-    animation-name: rotate;
-    animation-duration: 20s;
   }
