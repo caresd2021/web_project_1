@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     height: 316px;
-    width: 515px; 
+    width: 515px;
+    border-style: none;
 }
 
 .video__iframe:first-of-type {
