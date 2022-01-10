@@ -1,5 +1,8 @@
 .table__cell_theme_dark {
     width: 200px;
     color: white;
-    padding-bottom: 80px;
   }
+
+.table__padding_theme_dark {
+  padding-bottom: 80px;
+}
